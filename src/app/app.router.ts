@@ -17,7 +17,7 @@ import { HomeComponent } from './home/home.component';
 
 
 export const router: Routes = [
-    {path: '', redirectTo: 'navbar', pathMatch: 'full'}, 
+    {path: '', redirectTo: 'home', pathMatch: 'full'}, 
     {path: 'inventory', component: InventoryComponent},
     {path: 'buy', component: BuyComponent},
     {path: 'faq', component: FaqComponent},
